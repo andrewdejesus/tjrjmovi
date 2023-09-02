@@ -1,6 +1,7 @@
 import requests
 from bs4 import *
 import time
+from dadossensiveis import *
 import smtplib
 import email.message
 from movi import *
@@ -21,7 +22,7 @@ def enviar_email_prot():
         msg['Subject'] = "ANDAMENTO NO SEI"
         msg['From'] = 'andrewdias2016@gmail.com'
         msg['To'] = mail
-        password = 'jgqckvvptyafyrrp' 
+        password = senha 
         msg.add_header('Content-Type', 'text/html')
         msg.set_payload(corpo_email)
 
@@ -47,7 +48,7 @@ def enviar_email_and():
         msg['Subject'] = "ANDAMENTO NO SEI"
         msg['From'] = 'andrewdias2016@gmail.com'
         msg['To'] = mail
-        password = 'jgqckvvptyafyrrp' 
+        password = senha 
         msg.add_header('Content-Type', 'text/html')
         msg.set_payload(corpo_email)
 
