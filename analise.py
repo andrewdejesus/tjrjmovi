@@ -35,8 +35,15 @@ def enviar_email_prot():
 
 def enviar_email_and():
 
-    EMAILS = ['andrewdias2016@gmail.com','arthurnascifar@outlook.com','arthurnascimentotj@outlook.com','thaissa_o.soares@hotmail.com','douradomarcella@gmail.com','yasmimvnb@gmail.com',
-              'gersonlima8021@gmail.com','leandror.cruz2015@gmail.com']
+    EMAILS = ['andrewdias2016@gmail.com',
+              'arthurnascifar@outlook.com',
+              'arthurnascimentotj@outlook.com',
+              'thaissa_o.soares@hotmail.com',
+              'douradomarcella@gmail.com',
+              'yasmimvnb@gmail.com',
+              'gersonlima8021@gmail.com',
+              'leandror.cruz2015@gmail.com',
+              'marceloapcorrea@gmail.com']
 
     for mail in EMAILS:
         corpo_email = f"""
