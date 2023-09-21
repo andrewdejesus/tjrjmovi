@@ -44,7 +44,8 @@ def enviar_email_and():
               'gersonlima8021@gmail.com',
               'leandror.cruz2015@gmail.com',
               'marceloapcorrea@gmail.com',
-              'bryanbarrossm@gmail.com']
+              'bryanbarrossm@gmail.com',
+              'diegoac1988@hotmail.com']
 
     for mail in EMAILS:
         corpo_email = f"""
