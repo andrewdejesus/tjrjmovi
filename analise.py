@@ -43,7 +43,8 @@ def enviar_email_and():
               'yasmimvnb@gmail.com',
               'gersonlima8021@gmail.com',
               'leandror.cruz2015@gmail.com',
-              'marceloapcorrea@gmail.com']
+              'marceloapcorrea@gmail.com',
+              'bryanbarrossm@gmail.com']
 
     for mail in EMAILS:
         corpo_email = f"""
